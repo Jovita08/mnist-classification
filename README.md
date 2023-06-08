@@ -1,16 +1,18 @@
+### EX NO : 03
+### DATE  : 
 # Convolutional Deep Neural Network for Digit Classification
 
-## AIM
+## AIM :
 
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
 
-## Problem Statement and Dataset
+## Problem Statement and Dataset :
 
-## Neural Network Model
+## Neural Network Model :
 
 Include the neural network model diagram.
 
-## DESIGN STEPS
+## DESIGN STEPS :
 
 ### STEP 1:
 Import tensorflow and preprocessing libraries
@@ -21,10 +23,11 @@ Build a CNN model
 ### STEP 3:
 Compile and fit the model and then predict
 
-## PROGRAM
+## PROGRAM :
+Developed By: **Virgil Jovita.A**
+<br/>
+Register Number: **212221240062**
 ```py
-Developed By:Virgil Jovita A
-Reg No:212221240062
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -124,7 +127,7 @@ x_single_prediction = np.argmax(model.predict(img_28_gray_inverted_scaled.reshap
 print(x_single_prediction)
 ```
 
-## OUTPUT
+## OUTPUT :
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![sdsa](mel.png)
 ![sdsa](kel.png)
@@ -139,5 +142,5 @@ print(x_single_prediction)
 ![sdsa](op.png)
 ![sdsa](pnt.png)
 
-## RESULT
+## RESULT :
 Thus a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is written and executed successfully.
